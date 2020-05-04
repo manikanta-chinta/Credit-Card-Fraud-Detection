@@ -10,8 +10,10 @@ The dataset was collected and analysed during a research collaboration of Worldl
 
 ## Model
 
-The data
+Leveraged SMOTE technique to balance the data set and implemented XGBoost model.
 
 ## Performance
 
-The final model achieves an overall f1 score of 1.00, with 95% sensitivity (recall) and 19% precision for the positive class. That is, the model correctly identifies 95% of the fraud cases (true positives) but only 19% of the transactions predicted as fraudulent were actually fraudulent. The model catches 95% of the fraudulent cases — it could identify more cases of fraud but would then also have lower precision.
+The final model achieves an overall f1 score of 0.86, with 87% sensitivity (recall) and 86% precision for the Fraud class. That is, the model correctly identifies 87% of the fraud cases (true positives) and also 86% of the transactions predicted as fraudulent were actually fraudulent. 
+
+We are idenitifying as many fraudualent transactions as possible and at the same time not classifying too many valid transactions as fraudulent.
